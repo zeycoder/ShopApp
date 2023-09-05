@@ -7,12 +7,9 @@ const usePost = () => {
     const [loading, setLoading] = useState(false);
 
     const post = async (url,apiData) => {
-        console.log('aaaaaaaaa')
         try {
             setLoading(true)
-            console.log('istekten hemen önce');
             const {data:response} = await axios.post(url,apiData);
-            console.log('istekten hemen sonra');
             setData(response)
             setLoading(false)
             setError(false)
