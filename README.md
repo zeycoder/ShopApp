@@ -8,7 +8,7 @@ Apiden çektiğimiz veriler sayesinde kullanıcı girişini sağlıyoruz. Ve bun
 
 `npm install`
 
-`expo start`
+`npx expo start`
 
 ## Screen Shots
 ### Screen Shot 1
